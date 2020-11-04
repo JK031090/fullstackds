@@ -1,0 +1,44 @@
+## Discrete probability distributions
+
+## Uniform distributions
+
+#Discrete - all discrete outcomes have same probability 
+ eg. rolling a die each outcome is equally likely with P = 1/6
+
+ # Binomial distributions
+ there are 2 discrete mutually exclusive outcomes of a trial
+ eg: head/tail , on/off, sick/healthy, success/failure
+
+ Bernoulli trials; random experiment where ther are only two possible outcomes
+ Series of n trials will follow a binomial distribution if
+ 1. probability of success (p) is constant
+ 2. trials are independent of each other.
+
+Binomail probability mass function:
+
+Probability of observing x success in n trials
+P(x:n,p) = (nCx)(p)^x (1-p)^(n-x)
+
+## Poisson distribution
+
+considers number of successes per unit of time or any continuous unit
+
+Poisson pmf
+    E(X) = mu
+
+lambda = # of occurences/interval = mu
+P(x) = (lambda ^ x) * (e^-lambda) / x!
+e = Euler's number = 2.718
+
+
+### Continuous distributions - Normal/Expo/Beta
+also called probability density functions
+
+In discrete sum of values of individual bars = 1
+whereas in continuous the area under curve = 1
+
+Standard Normal Distro 
+    mean = 0 , std = 1
+    68.27% of values will fall under 1 std
+    95.45% values under 2std
+    99.73% values under 3 std

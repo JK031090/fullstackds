@@ -1,0 +1,24 @@
+## Permuatations
+
+Permutations - arrangement of objects in a certain order.
+Simple Permutation - n!
+number of permutation by taking r objects at a time
+    nPr = n!/(n-r)!
+
+number of arrangements with repetition taking r objects at a time
+    n^r
+
+## Combinations
+
+unordered arrangement of objects = combination
+number of combinations of a set of n objects taken r at a time:
+    nCr = n!/r!(n-r)!
+
+number of combinations taken r at a time and allowing repetition:
+    n+r-1Cr = (n+r-1)! / r!(n-1)!
+
+## Intersection Union Complements
+
+## Conditional Probability
+
+P(A|B) = P(A intersection B)/ P(B)
