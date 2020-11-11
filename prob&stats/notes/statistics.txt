@@ -1,0 +1,110 @@
+#what is statistics?
+application of what we know to what we want to know.
+
+#population vs sample
+Parameter : population
+Statistic : sample
+
+#sampling techniques
+avoid bias in sampling
+
+#bias
+1. selection bias 
+    undercoverage bias
+    self-selection bias
+    healthy-user bias
+
+2. survivorship 
+
+#Sampling techniques
+1. Random sampling - every member in the population has an equal chance of being selected
+2. Stratified random sampling
+    if there are sub-groups within population use techniques
+    data is first divided into sub-groups and sampling is done within sub-groups
+
+3. Clustering
+
+## Central Limit Theorem
+Large number of Sample means will be normally distributed around the population means
+even if the population mean is not normally distributed.
+
+#Hypothesis testing
+application of statistics to real world questions
+assumption - null Hypothesis
+
+reject or fail to reject the null Hypothesis
+At the start of experiment null hypothesis is assumed to be true
+
+if data fails to support the null hypothesis, only then we can look to alternate hypothesis.
+
+Null hypothesis is always opposite of what we want to test.
+Null hypothesis should contain equality, alternate no equality.
+If the probability of observing these results is very small (p-value)
+then we reject the null hypothesis
+
+0.05 = level of significance
+
+
+TEST OF MEANS / TEST OF PROPORTIONS
+For test of means, we look at Z score
+
+If p-value is low, null must go - reject H0
+If p-value is high, null must fly - fail to reject H0 
+
+## Type 1 and type 2 errors
+
+Type 1 - reject a null hypothesis when it must have been supported
+Type 2 - fail to reject null when that should have been rejected.
+
+Eg: H0: Not pregnant
+H1: Are pregnant
+
+Type 1 error - false positive - Tell a 'man' he is pregnant
+Type 2 error - false negative - Tell a 'pregnant lady' she is not pregnant
+
+Student's T distribution
+in z scores we need to know population standard deviation,
+in case we do not know pop std deviation, in those cases we
+do t-test.
+
+t-test also considers sample variance.
+
+## One-sample t-test
+
+t-statistic = (xbar - mu)/ s/sqrt(n)
+
+##Independent 2 sample t-test
+
+a. equal sample size, equal variance
+
+2 - sample t-test
+
+t-distro have fatter tails than normal z-distro
+means more variance!
+
+### ANOVA
+
+F-distribution
+
+3 or more samples are from same population?
+
+ Between groups: how far group means stray from overall mean
+ Within groups: how far individual values vary from group mean
+
+ F = Between groups/Within groups
+
+ ANOVA - one way anova 1 independent variable
+ Two way anova - 2 independent variables
+
+ Example:
+ multiple rows per block - 2 way anova with replication
+
+ With replication:
+
+ More on two way anova with replication?? - Khan acad
+
+ ### Chi-square
+ this test is used to determine the probability of an observed frequency of events
+ given an expected frequency!
+
+ https://docs.google.com/document/d/1TfB48iJcCAPaQYiOgB70_QgBXyGaU33nYyUZ6lgtLl8/edit
