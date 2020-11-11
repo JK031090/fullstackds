@@ -37,3 +37,5 @@ standard deviation = square root of variance
 scatter plots may uncover correlation
 
 covariance = 1/N sigma(x - xmu)(y-ymu)
+
+pearson correaltion coefficient = covariance/stdx * stdy
